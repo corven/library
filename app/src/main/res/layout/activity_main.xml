@@ -53,13 +53,13 @@
                 >
 
                 <ImageView
-                    android:id="@+id/item1"
+                    android:id="@+id/itemStar"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:paddingTop="10dp"
                     android:paddingBottom="10dp"
-                    android:src="@drawable/ic_person"
+                    android:src="@drawable/ic_star"
                     tools:visibility="visible"
                     />
 
@@ -70,13 +70,13 @@
                     />
 
                 <ImageView
-                    android:id="@+id/item2"
+                    android:id="@+id/itemTitle"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:paddingTop="10dp"
                     android:paddingBottom="10dp"
-                    android:src="@drawable/ic_thumb_up"
+                    android:src="@drawable/ic_title"
                     />
 
             </com.michaldrabik.tapbarmenulib.TapBarMenu>

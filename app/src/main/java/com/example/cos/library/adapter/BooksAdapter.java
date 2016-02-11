@@ -24,7 +24,8 @@ public class BooksAdapter extends RecyclerView.Adapter<BooksAdapter.ViewHolder> 
 
     private Context context;
     private List<Book> books;
-    public static final String DESC = "desc";
+    public static final String DESC = "desc",
+        TITLE = "title";
 
     public BooksAdapter(Context context, List<Book> books) {
         this.context = context;
@@ -50,6 +51,7 @@ public class BooksAdapter extends RecyclerView.Adapter<BooksAdapter.ViewHolder> 
             @Override
             public void onClick(View view, int position, boolean isLongClick) {
                 Intent intent = new Intent(context, BookActivity.class);
+                intent.putExtra(TITLE, book.getTitle());
                 intent.putExtra(DESC, book.getDesc());
                 context.startActivity(intent);
             }

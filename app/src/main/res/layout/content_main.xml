@@ -13,10 +13,9 @@
         android:id="@+id/rvBooks"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:columnWidth="150dp"
+        android:columnWidth="170dp"
         android:clipToPadding="false"
         android:foregroundGravity="center_horizontal"
         android:padding="8dp"
-        android:layout_gravity="right"
         />
 </FrameLayout>
